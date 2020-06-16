@@ -1,0 +1,731 @@
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* CSS MENU DE NAVIGATION */
+
+body{
+font-family: 'Rubik', sans-serif;
+background-image: url(../img/fond2.png);
+}
+
+
+.navbar-brand img{
+  max-height: 40px;
+}
+
+.navbar{
+	background-color: #e7caa8 !important;
+}
+
+/* ICONE MENU DE NAVIGATION */
+.fa-globe{
+	color: #b50e0e !important;
+	margin-left: 26px;
+}
+
+.center{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Animation bouton menu navigation */
+
+.hvr-grow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+	margin: 10px;
+	font-size: 1em;
+	font-weight: bold;
+	border-radius: 20px;
+	padding: 8px;
+	text-align: center;
+
+}
+.hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+/************************* COLORS****************/
+
+.brown{
+	color: white !important;
+	background-color: #A00101 !important;
+}
+
+
+/***************************** HEADER  IMAGE********************/
+header .head1{
+	background-image: url("../img/p.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 100vh;
+	background-position: center;
+	display: flex;
+	align-items: center;
+	clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
+
+}
+
+
+
+/* BOUTONS IMAGE HEADER */
+.left{
+	display: flex;
+	justify-content: flex-start;
+	text-transform: capitalize;
+	margin-left: -13px;
+}
+
+.right{
+	display: flex;
+	justify-content: flex-end;
+	margin-left: 13px;
+
+}
+
+.btn-primary{
+	background-color: #920000 !important;
+	font-weight: bold;
+	font-size: 20px;
+	border-radius: 20px;
+	background-attachment: fixed !important;
+}
+
+/***- TEXTE MAIN APRES IMAGE HEADER  -****/
+
+.texte-index{
+	line-height: 3em;
+	margin-top: 70px;
+	color: #721121;
+	font-weight: bold;
+	font-size: 1.2em;
+	background-color: #faf1e8;
+	margin-right:0px;
+	margin-left: 0px
+	border: 1px solid black;
+	margin-bottom: 30px;
+}
+
+.titre-index{
+	text-transform: uppercase;
+	font-weight: bold;
+	text-decoration: underline overline #E57569;
+	font-size: 1.2em;
+}
+.block{
+	margin-right: 0px !important;
+}
+
+
+/**************** PROPRIETES POUR LE SITE**************** */
+.bold{
+	font-weight: bold;
+}
+
+.center{
+	text-align: center;
+}
+
+.brown-dark{
+	color:#764133;
+}
+
+.brown-text{
+	color: #764133;
+}
+
+/***************************ICONE INDEX ******************/
+
+
+/* TEXTE DROITE DE L'ICONE */
+.left2{
+	line-height: normal;
+	text-align: center;
+	text-align: justify;
+	color: #721121;
+	font-size: 1.2em;
+	line-height: 1.2em;
+	margin-bottom: 20px;
+	margin-top: 30px
+}
+
+/* ICONES GAUCHE DU TEXTE */
+
+.left-index{
+	font-size: 170px;
+	color: #9c0d38 !important;
+}
+
+.right2{
+	margin-top: 100px;
+}
+
+.block{
+	background-color:#faf1e8;
+	margin-top: 5%;
+	margin-bottom: 12%
+}
+
+/* TITRE TEXTE CENTER */
+.titre-puce{
+	font-size: 21px;
+	text-transform: uppercase;
+	margin-bottom: 21px;
+	margin-top: 5px;
+	text-align: center;
+	text-decoration: underline overline #E57569;
+}
+
+/* TEXTE CENTER GAUCHE ICONE */
+.ul-text{
+	margin-left: 5%;
+	line-height: 2em;
+	text-align: center;
+}
+
+.t-p{
+	margin-top: 50px
+}
+
+
+/**************** FOOTER ********************/
+
+/*** BALISE  FOOTER PRINCIPALE ***/
+
+.foot-principal{
+	background-color: #b50e0e;
+	padding-bottom: 5%; color: white;
+	margin-bottom: 0%;
+}
+
+/* DIV HAUT FOOTER COULEUR BEIGE */
+.haut-foot{
+	background-color: #e7caa8;
+}
+
+/* LIENS CLASS */
+.list-unstyled{
+	line-height: 30px
+}
+
+/* TITRE RESEAUX HAUT EN CLAIR */
+.p-icone{
+	text-transform: uppercase;
+	color: #721121;
+	font-size: 15px;
+	margin-top: 16px;
+	margin-bottom: 10px;
+	display: flex;
+	justify-content: flex-start;
+}
+
+/* DIV QUI REGROUPE LES ICONNES */
+.ico{
+	margin-top: 7px;
+	margin-bottom: 10px;
+}
+
+/* TITRE CODEVORES */
+.titre-foot2{
+	font-size: 16px;
+	text-transform: uppercase;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 22%;
+}
+
+/* IMG EN DESSOUS DU TITRE */
+.img-foot{
+	width: 22%;
+	margin-left: -7px;
+	margin-top: 32px;
+	box-shadow:20px 6px 7px 0px #d34949;
+}
+
+/* DIV REGROUPE LES LIENS */
+.liens-foot{
+	margin-top: 3%;
+}
+
+/* DIV LIEN CONTACT */
+.liens-contact{
+	margin-left: 2%;
+	margin-right: 12%;
+	margin-top: 3%;
+	line-height: 30px;
+}
+
+/* DIV ICONE CONTACT */
+.icon-contact{
+	padding-top: 6%;
+	line-height: 30px;
+}
+
+/* TITRE HAUT DE LA DIV CONTACT */
+.titre-contact{
+	padding-top: 4%;
+	padding-bottom: 0% !important;
+	font-size: 16px;
+
+}
+
+/* COPYRIGHT */
+.copy{
+	margin-top: 4%;
+	margin-right: 8%;
+	font-size: 17px;
+
+}
+
+/******** BONTON THEME JS***** */
+.theme-nuit {
+  background-color: #482728 !important;
+  color: white !important;
+}
+
+
+/************ PAGE ESPACE RECRUTEUR ***********/
+
+/**************** IMAGE HEADER*************** */
+
+
+/* POUR CACHER BARRE GRISE */
+HTML { overflow-x :hidden ; }
+
+/* MAIN PRINCIPAL */
+
+/* TITRE MAIN */
+.section-title{
+	font-size: 25px;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin: 5% 5%
+}
+
+.sections{
+	margin-top: 7%;
+}
+/* LIGNE EN DESOUS DU TRITRE EN ROUGE */
+.line{
+	width: 160px;
+	background: #bd1111;
+	height: 4px;
+	margin: auto;
+	margin-top: 10px;
+}
+/* LIGNE EN DESOUS DU TRITRE EN VERT */
+
+.line span{
+	display: block;
+	width: 100px;
+	height: 4px;
+	background-color: green;
+	margin: auto;
+	position: relative;
+	margin-bottom: 0.5px
+}
+
+
+/* DIV PRINCIPALE TEXTE + IMAGE */
+.block-main-recru{
+	background-color: #faf1e8;
+	margin-top: 7%;
+	margin-bottom: 13%;
+
+}
+/* DIV PRINCIPALE */
+.section-header p{
+margin: 15px auto;
+line-height: 1.5;
+font-size: 20px;
+font-weight: bold;
+}
+
+/* BLOC EN DESSOUS  */
+
+/* TEXTE + IMAGE EN DESSOUS DU TITRE  */
+.about-info{
+	line-height: 3em;
+	margin-top: 70px;
+	color: #721121;
+	font-weight: bold;
+	font-size: 1.2em;
+	background-color: #faf1e8;
+	margin-right:0px;
+	margin-left: 0px
+	border: 1px solid black;
+	margin-bottom: 30px;
+
+}
+
+/* TITRE EN DESSOUS H3*/
+.title-info{
+	margin-bottom: 20px;
+	margin-top: -12%;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-decoration: underline overline #E57569;
+	font-size: 1.2em;
+	text-align: center;
+}
+
+/* IMAGE A DROITE DU TEXTE */
+
+.mainn-img img{
+	width: 100%;
+}
+
+/* TITRE H4  */
+.title-info2{
+	font-size: 20px;
+	margin-bottom: 5%;
+	margin-top: -3%;
+}
+
+/* UL EN DESSOUS DU TITRE H4 */
+.ul-recru{
+	line-height: 2.8;
+	margin-top: -3%;
+}
+
+
+
+/******************* CSS ESPACE PROFESIONNEL ************/
+
+/* HEADER IMAGE BACKGROUND */
+header .espace{
+	background-image: url("../img/head-3.png" );
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 70vh;
+	display: flex;
+	align-items: center;
+}
+
+.right{
+	display: flex;
+	justify-content: flex-end;
+	margin-left: 13px;
+
+}
+
+/* TITRE INTERIEUR IMAGE HEADER */
+.title-espace-pro{
+	font-size: 30px;
+	text-transform: uppercase;
+	color: white;
+}
+
+
+/* TITRE HEADER + ICONE */
+.block-pro{
+	display: flex;
+	justify-content: flex-end;
+	margin-right: -11%;
+	text-align: center;
+}
+
+
+/* TAILLE DE L'ICONE HEADER*/
+.size-ico{
+	font-size: 21px;
+	color:#f6c552;
+	margin-top: 20%;
+}
+
+/******** CSS PAGE PROFESSIONNEL ************/
+
+/* IMAGE HEADER */
+
+header .head-pro{
+	min-height: 72vh;
+	background-image: url("../img/ji.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/* TITRE HEADER PAGE PRO */
+.title-header-pro{
+	display: flex;
+	text-align: center;
+	margin-top: 20%;
+	font-size: 30px;
+	text-transform: uppercase;
+	color: #a00101;
+	line-height: inherit;
+	line-height: 1.3em
+}
+
+/* DIV CARD IMAGE + TEXTE */
+
+.card-main{
+margin-top: 10%;
+margin-bottom: 18%;
+width: 80% !important;
+color: #a00101;
+}
+
+/* TITRE CARD FORMATIONS + COMPETENCES */
+.card-title{
+	font-size: 20px
+}
+
+/* IMAGE CARD */
+.card-img-top{
+	width: 30%;
+	margin-top: 10%;
+}
+
+/* INTERIEUR CARDE DETAILS DES COMPETENCES */
+.list-group{
+	font-size: 19px
+}
+
+.ico-stars{
+	display: row;
+}
+
+/* PAGE BOUTTON CONTACT */
+
+header .head-button{
+	min-height: 72vh;
+	background-image: url("../img/blibli.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/* BOUTON CONTACT SIZE */
+
+.button-contact{
+	margin-right: 7%
+}
+
+/* MARGES HAUT CARD CONTACT */
+.size{
+	margin-top: 10%
+}
+
+/* MARGES HAUT ENTRES BALISES */
+
+.size-form{
+	margin-top: -5%
+}
+
+
+/****************** PAGE COMMUNAUTE ********/
+
+
+/* IMAGE HEADER */
+
+header .head-communaute{
+	min-height: 72vh;
+	background-image: url("../img/cube.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/* TITRE HEADER IMAGE */
+.color{
+	margin-top: 5%;
+	color:white ;
+}
+
+/* DIV CARD  */
+.block-card{
+	margin-top: 7%;
+	margin-bottom: 14%;
+	background-color: white;
+	color: #8b8b8b
+}
+
+/* TAILLE IMAGE CARD */
+.card-img-communaute{
+	width: 40%;
+
+}
+
+
+/************* PAGE ACTUALITE ***************/
+
+
+/************* SLADE HEADER *********/
+
+/* DIV PRINCIPALE CAROUSEL */
+#carouselExemple{
+	width: 60%;
+	margin: 0 auto;
+	margin-top: 13%;
+	margin-bottom: 12%
+}
+
+/* IMAGE CAROUSEL */
+.carousel-item img {
+	width: 100%;
+	height: auto;
+}
+
+/* HEADER IMAGE */
+header .head-actu{
+	min-height: 72vh;
+	background-image: url("../img/head-actu.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+/* TITRE EN DESSOUS DU HEADER IMAGE */
+.marges{
+	margin-top: 8px
+}
+
+
+/* TEXTE SLIDE */
+
+.text-slide{
+	color: black;
+	background-color: white;
+	font-size: 21px;
+	line-height: 1.5;
+	font-family: 'Lobster', cursive;
+}
+
+
+/******************** PAGE CONTACT**********************/
+
+/* HEADER IMAGE */
+header .head-contact{
+	min-height: 65vh;
+	background-image: url("../img/hhh.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top: 5%;
+}
+
+
+/* TITRE EN DESSOUS HEADER */
+
+.marges-contact{
+	margin-top: 1px
+}
+
+/* DIV CARD FORMULAIRE DE CONTACT */
+
+.block-contact{
+width: 90% !important;
+height: auto;
+margin-bottom: 10%;
+margin-top: 5%
+}
+
+/* PARAGRAPHE CHAMPS OBLIGATOIRE****** */
+.marge-champs{
+	margin-left: 7% !important;
+	margin-top: 4%;
+}
+
+
+/***************************** PAGE FAQ***************** **/
+
+/* DIV PRINCIPAL CARD */
+.card-faq{
+	width: 80% !important;
+  margin-top: 6%;
+	margin-bottom: 10%;
+	border-color: #a00101;
+}
+
+/*** DIV CARD INTERIEUR QUESTIONS***/
+.card-inside{
+	width: 80%;
+	margin-top: 5%;
+	margin-bottom: 20%;
+
+}
+
+/* TITLE FOIRE AUX QUESTIONS HAUT */
+
+.title-faq{
+	font-size: 18px
+}
+
+/* UL LI CLASSE  */
+.style-faq {
+line-height: 1.5;
+}
+
+
+/**************** PAGE CONNEXION *******************/
+
+ /* DIV PRINCIPAL CARD CONNEXION  */
+ .card-connexion{
+	margin-top: 18%;
+	margin-bottom: 15%;
+	width: 90% !important;
+}
+
+/* TITRE CONNEXION */
+.title-connexion{
+font-size: 25px
+}
+
+
+/* DIV EN DESSOUS TITRE CONNEXION */
+.card-c{
+	margin-bottom: 5%;
+}

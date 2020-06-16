@@ -1,0 +1,261 @@
+
+<!doctype html>
+  <html lang="fr">
+    <head>
+      <!-- Required meta tags -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+      <!-- -------------------POLICE------------- -->
+      <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
+
+      <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+
+
+      <!-- ICONES FONT AWESOME -->
+      <script src="https://kit.fontawesome.com/dfd25684a2.js" crossorigin="anonymous"></script>
+
+      <!-- POUR INSRER UN ICONE EN TËTE -->
+      <link rel="shortcut icon" href="assets/img/icon.png">
+
+      <!-- LIEN CSS -->
+      <link rel="stylesheet" href="assets/css/style.css">
+      <title> Codevores</title>
+
+    <!-- --LIENS PAGE JS-- -->
+      <!-- <script src="js/js-main/script.js"></script> -->
+      <script src="js/js-main/formulaire.js">
+
+      </script>
+    </head>
+
+
+
+
+
+
+      <!-**************NAVBAR********************************* -->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+
+        <a class="navbar-brand" href="#haut">
+          <i class="fas fa-globe fa-2x"></i>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse"
+        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto center ">
+              <li class="nav-item active">
+                <a class="nav-link  btn-lg hvr-grow brown" href="index.html">Accueil</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link  btn-lg hvr-grow brown" href="recruteur.html">Recruteur</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link  btn-lg hvr-grow brown" href="espace-pro.html">Professionnel</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link  btn-lg hvr-grow brown" href="page-pro.html">Page du professionnel</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link  btn-lg  hvr-grow brown" href="comunaute.html">Communauté</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link  btn-lg  hvr-grow brown" href="contact.html">Contact</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link  btn-lg  hvr-grow brown" href="connexion.html"><i class="fas fa-sign-in-alt"></i> Connexion</a>
+              </li>
+            </ul>
+          </div>
+  </nav>
+
+
+
+
+
+
+  <!-- HEADER ----------------IMAGE HEADER------------- -->
+
+    <header class="container-fluid">
+      <div class="row head-contact d-flex">
+        <div class="col-12 col-md-5 title-header-pro bold  d-sm-flex">
+        </div>
+      </div>
+    </header>
+
+
+
+
+
+    <!-- --------TITRE EN DESSOUS DE L'IMAGE------ -->
+
+      <section class="sections about ">
+          <div class="container">
+            <div class="section-header">
+              <div class="row">
+                  <div class="center col-12 col-md-6 bn">
+                    <h2 class="section-title center marges-contact">NOUS CONTACTER</h2>
+                    <div class="line"> <span></span> </div>
+            </div>
+      </section>
+
+
+
+
+
+<!-- -----------FORMULAIRE DE CONTACT---------- -->
+
+
+<section class="container block-contact">
+    <div class="card block-contact center">
+
+      <div class="card-body">
+
+<!-- ----------FORMULAIRE JS----- -->
+        <form name="inscription">
+
+          <h5 class="card-title bold mt-5">Sélectionnez le servive souhaité</h5>
+
+          <select class="form-control mt-5">
+            <option>Service commercial</option>
+            <option>Service technique</option>
+            <option>Service Réclamation</option>
+          </select>
+              <hr>
+
+          <div class="row mt-5">
+              <div class="col-12 col-md-4">
+
+                <input type="text" class="form-control" id="nom" placeholder="Nom*"name="nom" required>
+              </div>
+              <div class="col-12 col-md-4">
+                <input type="text" class="form-control" id="prenom" placeholder="Prénom*" name="prenom" required>
+              </div>
+              <div class="col-12 col-md-4 nana" >
+                <input type="text" class="form-control" placeholder="Téléphone*" id="telephone"name="telephone" required>
+              </div>
+          </div>
+
+          <div class="form-group">
+              <label for="exampleFormControlInput1 " class="d-flex mt-5 ml-2 mb-1">E-mail* </label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" name="email-confirmation" id="email" required>
+          </div>
+
+        <div class="form-group">
+            <label for="exampleFormControlTextarea1" class="d-flex mt-5 ml-2 mb-1">Message</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="message" required></textarea>
+        </div>
+
+
+        <p class="d-flex marge-champs"><span style="color:red;">*</span>Champs obligatoires</p>
+
+         <p class="mt-3 ml-1 mb-5"><input type="checkbox" name="case-validation" value="" required>
+         J'accepte de recevoir du contenu de la part de Codevores: invitations à des évenements, articles, noueautés...</p>
+
+
+          <input type="submit" value="Envoyer"class="btn btn-primary" >
+      </form>
+
+      <p style="color: red;" id="erreur"></p>
+
+
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+<!-- -------------------FOOTER ----------------------- -->
+
+<footer class="foot-principal">
+    <div class="haut-foot center">
+      <div class="container">
+        <div class="row center">
+        <div class="col-md-6 titre-h">
+          <p class="p-icone bold">Retrouvez nous sur nos réseaux sociaux</p>
+        </div>
+        <div class="col-md-6 ico">
+          <a  href="#"> <i class="fab fa-facebook fa-2x mx-3 text-primary b"></i></a>
+          <a href="#"> <i class="fab fa-google-plus fa-2x mx-3 text-danger b"></i></a>
+          <a href="#"> <i class="fab fa-twitter fa-2x mx-3 text-info b"></i></a>
+          <a href="#"> <i class="fab fa-youtube fa-2x mx-3 text-danger b"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-sm-11 col-md-3  center">
+        <h3 class="titre-foot2 bold">Codevores</h3>
+        <img src="assets/img/icon.png" alt="" class="img-foot">
+      </div>
+
+      <div class="col-sm-11 col-md-3 mx-auto liens-foot center">
+          <h5 class="font-weight-bold text-uppercase mt-3 mb-4 liens-titre">LIENS</h5>
+           <ul class="list-unstyled lien-ul">
+
+            <li>
+              <a href="faq.html">FOIRE AU QUESTIONS </a>
+            </li>
+          </ul>
+      </div>
+
+      <div class="col-sm-11 col-md-3 liens-contact center">
+        <h6 class="text-uppercase font-weight-bold titre-contact">CONTACT</h6>
+          <div class="icon-contact">
+             <p class="">
+               <i class="fas fa-home mr-3 "></i> 8 rue Dauphine 75006 PARIS</p>
+             <p class="">
+               <i class="fas fa-envelope mr-3"></i> info@codevores.com</p>
+             <p class="">
+               <i class="fas fa-phone mr-3"></i> 01 43 12 27 15</p>
+             <p class="">
+               <i class="fas fa-print mr-3"></i> 01 45 54 65 32</p>
+          </div>
+      </div>
+    </div>
+    <p class="center copy">&copy; Copyright-2020 by Codevores</p>
+  </div>
+</footer>
+
+
+
+
+
+
+
+      <!-- JS -->
+      <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
+
+      <!-- <script src="js/js-main/script.js">
+      </script> -->
+
+      <script src="js/js-main/formulaire.js">
+
+      </script>
+
+    </body>
+
+
+
+
+  </html>
