@@ -2,13 +2,7 @@
     <!-- <link rel="stylesheet" href="../assets/styles.css"> -->
     <!-- -------------------FOOTER ----------------------- -->
 
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-  </head>
-  <body>
+
     <footer class="foot-principal">
 
     <!-- FOOTER DEBUT -->
