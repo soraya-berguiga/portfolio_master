@@ -100,6 +100,10 @@ footer {position: absolute; bottom: 0;} */
 	font-weight: bold;
 }
 
+.size-title{
+	font-size: 20px;
+}
+
 /*** NAVBAR TRANSPARENCE ****/
 
 .navbar-colors{
@@ -171,6 +175,10 @@ line-height: 1.7em;
 
 }
 
+
+.size-title{
+	margin-right: 5%;
+}
 
 
 /**************** FOOTER ********************/
@@ -275,28 +283,55 @@ background-size: cover;
 position: center;
 }
 
-
+/* TITRE PROJETS */
 .title-projet{
 	margin-top: 10%;
 	text-align: center;
+	color:#4c5053;
 }
 
+
 .block-projet{
-	display: flex;
-	margin-top: 5%;
-	margin-bottom: 15%;
 	color: black;
 	background-color: white;
+	margin-top: 5%;
 }
 
 /* DIV CODEVORES */
 .block-codevores{
+	width: 60%;
+	background-color:#0f000085;
+	color: #fff1ea;
+	clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 80% 100%, 20% 100%, 0% 80%, 0% 20%);
+	border: 3px solid yellow;
+	margin-top: 5%;
+	margin-bottom: 3%;
+
+}
+
+.img_site-recrutement{
+	width: 50%;
+}
+
+
+.btn-projet{
+	border: 2px solid yellow;
+	background-color:#0f000085;
+	color: #fff1ea !important;
+}
+
+
+.block-hotel{
 	border: 1px solid black;
 }
 
-.block-hotel{
-	border: 1px solid black; 
+.btn-projet a{
+text-decoration: none;
+color: yellow;
 }
+
+
+
 
 
 /* DIV MUSEE */
