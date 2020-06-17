@@ -1,17 +1,17 @@
 <!-- FICHIER URL DE BASE DANS CONFIG -->
 <?php
-include "../config.php"; ?>
+include "../config.php";
+include "../include/head.php";?>
 <!-- HEAD CONTIENT TOUS LES LIENS FONT,BOOSTRAP ect -->
 
 <!DOCTYPE html>
 <html lang="fr" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="css/my_style.css">
 
   </head>
   <body>
-
 
 <!-- --TITLE CONNEXION-- -->
 
@@ -19,7 +19,7 @@ include "../config.php"; ?>
   <div class="row">
     <div class="col-10 title-connexion">
       <h1>Connexion</h1>
-      <p>accès aux amis du musée</p>
+      <p>accès au dossier administration</p>
     </div>
   </div>
 </div>
@@ -27,12 +27,16 @@ include "../config.php"; ?>
 
 
 
-<form method="post" class="column-forms center bold" action="rep_connexion.php">
+
+<!-- ----FORMULAIRE DE CONNEXION---  -->
+
+
+<form method="post" class="column-forms center bold" action="connexion_reponse.php">
   <label for="">Identifiant</label>
-  <input type="text" name="identifiant">
+  <input type="text" name="identifiant" required>
 
   <label for="">Mot de passe</label>
-  <input type="password" name="password">
+  <input type="password" name="password" required>
 
   <div class="">
     <button type="submit" name="button"class="btn-connexion">Connexion</button>

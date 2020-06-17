@@ -1,0 +1,75 @@
+
+
+.kik{
+  color: red;
+}
+/************** PAGE CONNEXION ***********/
+/* TITLE CONNEXION */
+.title-connexion{
+	font-weight: bold;
+	font-size: 30px;
+	text-align: center;
+	margin-top: 7%;
+	margin-bottom: 5%;
+	margin-left: 8%;
+	text-decoration: underline overline gold;
+	line-height: 1.3em
+}
+
+/* FORMS CONNEXION */
+.column-forms{
+	display: flex;
+	flex-direction: column;
+	border: 5px solid brown;
+	align-items: center;
+	background-color: #edc4b3;
+	color: #774936
+}
+
+/* MARGES  */
+.space-1{
+	margin: 5vh;
+}
+
+
+
+.coconut{
+	font-size: 30px;
+	border: 5px solid brown;
+}
+
+.btn-connexion{
+	padding:10px 15px;
+	margin: 10px;
+	text-align: center;
+	cursor: pointer;
+	text-transform: uppercase;
+	color: #fca311;
+	background-color: #941b0c;
+	border: 2px solid brown;
+	border-radius: 14px;
+	box-shadow: 0 3px;
+	}
+
+.btn-connexion:hover{
+	transform: translateY(3px);
+	box-shadow: 0 1px #fca311;
+}
+
+.btn-connexion:active{
+	box-shadow: 0 3px #fca311;
+}
+
+.position{
+	margin-left: 10%;
+}
+.input-connexion{
+	border-radius: 15px
+}
+
+
+.larger{
+	width: 50vh;
+	width: 30vw;
+	background-color: pink;
+}
