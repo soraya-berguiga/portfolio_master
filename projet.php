@@ -11,7 +11,7 @@
 
       <?php include "include/navigation.php"; ?>
 
-  <h1 class="title-projet bold size-title">Projets réalisés lors de la formation Descodeuses</h1>
+  <h1 class="title-projet bold size-title">Projets réalisés en 2020 lors de la formation Descodeuses</h1>
 
 
 <!--------------- BLOCK PROJET CODEVORES -- ---------------->
@@ -22,8 +22,9 @@
     <!-- TEXTE -->
       <div class="row col-10 d-flex justify-content-center text-center ml-5 pb-3">
           <p class="pb-2">Thème: recrutement, mise en relation entre les professionnels de la technologie et les potentiels recruteurs.</p>
-          <p>Technologies utilisées: Html, Css3, JavaScript.</p>
+          <p class="pt-4">Technologies utilisées: Html, Css3, JavaScript.</p>
       </div>
+
       <!-- IMAGE -->
       <div class="row col-10 d-flex justify-content-center ml-5 pb-3">
           <img src="assets/img/img_codevores.png" alt="" class="img_site-recrutement">
@@ -47,6 +48,7 @@
         <div class="row col-10 d-flex justify-content-center text-center ml-5 pb-3">
             <p class="pb-2">Thème: Hotel, offrant la possibilité de réservation.</p>
             <p>Technologies utilisées: Html, Css3, JavaScript.</p>
+
         </div>
         <!-- IMAGE -->
         <div class="row col-10 d-flex justify-content-center ml-5 pb-3">

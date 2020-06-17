@@ -14,10 +14,10 @@
             <div class="col-md-4 titre-h">
               <p class="p-icone bold">Où me trouver</p>
             </div>
-            <div class="col-md-5 ico">
-              <a href="https://www.linkedin.com/in/soraya-berguiga-18b99b195/" target="_blank"> <i class="fab fa-linkedin fa-lg mx-3 text-primary b"></i></a>
-              <a href="mailto:bechera-berguiga@outlook.fr"> <i class="far fa-envelope fa-lg mx-3 text-danger b" target="_blank"></i></a>
-              <a href="https://github.com/soraya-berguiga" target="_blank"> <i class="fas fa-code-branch fa-lg mx-3 text-info b"></i></a>
+            <div class="col-md-5 ico bold">
+              <a href="https://www.linkedin.com/in/soraya-berguiga-18b99b195/" target="_blank"> <i class="fab fa-linkedin fa-2x mx-3 text-primary b"></i></a>
+              <a href="mailto:bechera-berguiga@outlook.fr"> <i class="far fa-envelope fa-2x mx-3 text-danger b" target="_blank"></i></a>
+              <a href="https://github.com/soraya-berguiga" target="_blank"> <i class="fas fa-code-branch fa-2x mx-3 text-info b"></i></a>
             </div>
           </div>
         </div>
