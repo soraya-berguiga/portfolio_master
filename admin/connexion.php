@@ -1,8 +1,36 @@
 <!-- FICHIER URL DE BASE DANS CONFIG -->
 <?php
 include "../config.php";
-include "../include/head.php";?>
+include "../include/head.php";
+include "../fonctions_site.php";
+?>
 <!-- HEAD CONTIENT TOUS LES LIENS FONT,BOOSTRAP ect -->
+
+<?php
+    show_error(); // fonction que j'ai préalablement écrite
+    show_success(); // fonction que j'ai préalablement écrite
+?>
+
+
+
+<?php
+// if(isset($_POST['connexion']))
+// {
+//   if(!empty($_POST['identifiant']) AND !empty($_POST['password']))
+//   {
+//     $identifiant = htmlspecialchars($_POST['identifiant']);
+//     $password = sha1($_POST['password']);
+//
+//       $insertmbr = ("INSERT INTO membres(identifiant, password) VALUES(?, ?)");
+//       $insertmbr->execute($identifiant, $password);
+//   }
+//   else
+//   {
+//     $erreur = "Tous les champs doivent être complétés";
+//   }
+// }
+?>
+
 
 <!DOCTYPE html>
 <html lang="fr" dir="ltr">
@@ -33,20 +61,26 @@ include "../include/head.php";?>
 
 <form method="post" class="column-forms center bold" action="connexion_reponse.php">
   <label for="">Identifiant</label>
-  <input type="text" name="identifiant_admin" required>
+  <input type="text" name="identifiant">
 
   <label for="">Mot de passe</label>
-  <input type="password" name="password_admin" required>
+  <input type="password" name="password">
 
   <div class="">
-    <button type="submit" name="button"class="btn-connexion">Connexion</button>
+    <button type="submit" name="connexion"class="btn-connexion">Connexion</button>
   </div>
 
 
 </form>
 
+<?php
+// if(isset($erreur))
+// {
+//   echo '<font color="red">'.$erreur."</font>" ;
+// }
 
 
+ ?>
 
 
 
