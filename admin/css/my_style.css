@@ -73,3 +73,26 @@
 	width: 30vw;
 	background-color: pink;
 }
+
+
+
+/* PAGE REPONSE CONNEXION DANS DOSSIER ADMIN */
+
+
+
+.title-reponse{
+	text-align: center;
+	font-size: 35px;
+	font-weight: bold;
+  margin-top: 7%;
+  color: brown;
+}
+
+.error-connexion{
+	font-weight: bold;
+	color: red;
+	text-align: center;
+	margin-top: 10%;
+  font-size: 30px;
+
+}

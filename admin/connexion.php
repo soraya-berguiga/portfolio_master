@@ -33,10 +33,10 @@ include "../include/head.php";?>
 
 <form method="post" class="column-forms center bold" action="connexion_reponse.php">
   <label for="">Identifiant</label>
-  <input type="text" name="identifiant" required>
+  <input type="text" name="identifiant_admin" required>
 
   <label for="">Mot de passe</label>
-  <input type="password" name="password" required>
+  <input type="password" name="password_admin" required>
 
   <div class="">
     <button type="submit" name="button"class="btn-connexion">Connexion</button>
