@@ -47,7 +47,7 @@ include "../fonctions_site.php";
   <div class="row">
     <div class="col-10 title-connexion">
       <h1>Connexion</h1>
-      <p>accès au dossier administration</p>
+      <p>accès au dossier administration </p>
     </div>
   </div>
 </div>
