@@ -3,7 +3,6 @@
 
 
 
-
 function changeDePage($url) {
         // permet de faire une redirection vers $url
 
@@ -11,7 +10,7 @@ function changeDePage($url) {
         exit;
     }
 
-    function ajouterErreur($texteMessageErreur) {
+    function erreurFonction($texteMessageErreur) {
     // Ajouter un texte dans notre tableau des erreurs.
     $_SESSION["erreur"][] = $texteMessageErreur;
 }

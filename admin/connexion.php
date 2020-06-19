@@ -5,7 +5,10 @@ include "../include/head.php";
 include "../fonctions_site.php";
 ?>
 
-
+<?php
+    show_error(); // fonction que j'ai préalablement écrite
+    show_success(); // fonction que j'ai préalablement écrite
+?>
 
 <!DOCTYPE html>
 <html lang="fr" dir="ltr">

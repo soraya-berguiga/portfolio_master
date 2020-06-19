@@ -9,6 +9,13 @@ include "../fonctions_site.php";
 
 
 <?php
+    show_error(); // fonction que j'ai préalablement écrite
+    show_success(); // fonction que j'ai préalablement écrite
+?>
+
+
+
+<?php
 
 
 if(empty($_POST["username"]) || empty($_POST["password"])) {
@@ -29,16 +36,12 @@ if(empty($_POST["username"]) || empty($_POST["password"])) {
         changeDePage("accueil.php"); // fonction que j'ai préalablement écrite.
         exit;
     } else {
-        ajouterErreur("L'utilisateur n'a pas été trouvé.");
-        changeDePage("connexion.php"); // fonction que j'ai préalablement écrite.
+        erreurFonction("L'utilisateur n'est pas enregistré");
+        changeDePage("connexion.php");
         exit;
     }
 
-
-
-
 }
-
 
 
 
