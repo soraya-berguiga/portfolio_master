@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Hôte : 127.0.0.1:3306
--- Généré le :  jeu. 18 juin 2020 à 18:55
+-- Généré le :  ven. 19 juin 2020 à 13:59
 -- Version du serveur :  10.4.10-MariaDB
 -- Version de PHP :  7.3.12
 
@@ -34,15 +34,15 @@ CREATE TABLE IF NOT EXISTS `membres` (
   `identifiant` varchar(250) NOT NULL,
   `password` text NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=7 DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=12 DEFAULT CHARSET=latin1;
 
 --
 -- Déchargement des données de la table `membres`
 --
 
 INSERT INTO `membres` (`id`, `identifiant`, `password`) VALUES
-(5, 'soraya', 'code'),
-(4, 'admin', 'admin');
+(2, 'soraya', 'code'),
+(1, 'admin', 'admin');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

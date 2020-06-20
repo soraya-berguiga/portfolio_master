@@ -96,3 +96,37 @@
   font-size: 30px;
 
 }
+
+/********** PAGE ACCUEIL MODIFICATION SITE ************/
+
+
+.title-accueil-modif{
+  font-size: 20px;
+  margin-top: 9%;
+  text-align: center;
+  color: #192a51;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.menu_accueil{
+  width:50%;
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  margin-top: 5%;
+  text-align: center;
+  border: 1px solid #774936;
+  font-size: 20px;
+
+}
+
+
+.menu_accueil a {
+  background-color: #192a51;
+  border: 1px solid black;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  padding: 1em 2em 1em 2em ;
+}

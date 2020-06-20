@@ -1,0 +1,10 @@
+
+
+Connexion à la base de donnée
+
+- identifiant : admin
+- Mot de passe : admin
+        OU ||
+
+- identifiant : soraya
+- Mot de passe : code

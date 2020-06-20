@@ -2,7 +2,7 @@
 
 $nom_portfolio = "Soraya Berguiga";
 
-$url_base = "http://localhost/portfolio/";
+// $url_base = "http://localhost/portfolio_master/";
 
 ?>
 
@@ -20,5 +20,8 @@ $nomBaseDeDonnees = "site_portfolio";
 
 // On établit la connexion
 $bdd = new PDO("mysql:host=$serveur;dbname=$nomBaseDeDonnees", $utilisateur, $motdepasse, array(PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES utf8'));
+
+define("PORTFOLIO_URL_SITE", "http://localhost/portfolio_master/");
+
 
  ?>

@@ -6,8 +6,8 @@ include "../fonctions_site.php";
 ?>
 
 <?php
-    show_error(); // fonction que j'ai préalablement écrite
-    show_success(); // fonction que j'ai préalablement écrite
+  note_erreur();
+  note_reussite();
 ?>
 
 <!DOCTYPE html>
@@ -31,8 +31,6 @@ include "../fonctions_site.php";
 </div>
 
 
-
-<!-- 8.54 -->
 
 <!-- ----FORMULAIRE DE CONNEXION---  -->
 

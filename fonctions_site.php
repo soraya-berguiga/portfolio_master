@@ -1,23 +1,22 @@
+
+
+<!-- -----------------PAGE FONCTION------------------------ -->
+
 <?php
 
-
-
-
+// fonction qui permet de changer de page
 function changeDePage($url) {
-        // permet de faire une redirection vers $url
 
         header("location:" . $url);
         exit;
     }
 
     function erreurFonction($texteMessageErreur) {
-    // Ajouter un texte dans notre tableau des erreurs.
     $_SESSION["erreur"][] = $texteMessageErreur;
 }
 
 
-function show_success() {
-    // affiche toutes les cases de mon tableau $_SESSION["success"]
+function note_reussite() {
     if(!empty($_SESSION["success"])) {
         echo "<div class='success'><ul>";
         foreach ($_SESSION["success"] as $success) {
@@ -26,12 +25,11 @@ function show_success() {
         echo "</ul></div>";
     }
 
-    unset($_SESSION["success"]); // une fois les erreurs affichées, je supprime le tableau pour être sur de ne plus les afficher plus tard.
+    unset($_SESSION["success"]);
 }
 
 
-function show_error() {
-    // affiche toutes les cases de mon tableau $_SESSION["erreur"]
+function note_erreur() {
     if(!empty($_SESSION["erreur"])) {
         echo "<div class='erreur'><ul>";
         foreach ($_SESSION["erreur"] as $erreur) {
@@ -40,11 +38,24 @@ function show_error() {
         echo "</ul></div>";
     }
 
-    unset($_SESSION["erreur"]); // une fois les erreurs affichées, je supprime le tableau pour être sur de ne plus les afficher plus tard.
+    unset($_SESSION["erreur"]);
 }
 
 
 
+function proteger_page() {
+
+        if(empty($_SESSION["connected_membres"])) {
+            changeDePage( PORTFOLIO_URL_SITE . "admin/connexion.php");
+        }
+}
+
+
+
+function ajouterErreur($texteMessageErreur) {
+    // Ajouter un texte dans notre tableau des erreurs.
+    $_SESSION["erreur"][] = $texteMessageErreur;
+}
 
 
  ?>
