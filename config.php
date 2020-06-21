@@ -2,7 +2,6 @@
 
 $nom_portfolio = "Soraya Berguiga";
 
-// $url_base = "http://localhost/portfolio_master/";
 
 ?>
 

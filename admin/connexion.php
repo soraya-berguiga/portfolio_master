@@ -1,4 +1,3 @@
-<!-- FICHIER URL DE BASE DANS CONFIG -->
 <?php
 include "../config.php";
 include "../include/head.php";

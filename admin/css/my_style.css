@@ -130,3 +130,24 @@
   font-weight: bold;
   padding: 1em 2em 1em 2em ;
 }
+
+
+/********************** PAGE UTILISATEUR *****************/
+
+
+.title-user{
+  font-size: 30px;
+  text-align: center;
+  margin-top: 5%;
+  color: #192a51;
+  font-weight: bold;
+
+}
+
+
+.block-users{
+  width: 30%;
+  margin: auto;
+  margin-top: 7%;
+  border: 1px solid #192a51;
+}

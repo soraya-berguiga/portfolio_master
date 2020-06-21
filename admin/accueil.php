@@ -5,9 +5,10 @@ include "../fonctions_site.php";
 ?>
 <?php
 include "../include/head.php";
-include "../include/navigation.php";
 
  ?>
+
+  <link rel="stylesheet" href="../assets/styles.css">
   <link rel="stylesheet" href="css/my_style.css">
 
 <?php
@@ -29,7 +30,7 @@ proteger_page();
 
 </div>
 
-<?php include "include/footer2.php"; ?>
+<?php include "../include/footer.php"; ?>
 
 
   </body>

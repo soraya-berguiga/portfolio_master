@@ -2,12 +2,10 @@
 include "../../config.php";
 include "../../include/head.php";
 
-// proteger_page(); // fonction qui permet de verifier si nous nous sommes préalablement connecté.
 
 
 ?>
 
-<link rel="stylesheet" href="my_style.css/css/master.css">
 
     <h1>Modification de la page d'accueil</h1>
 
